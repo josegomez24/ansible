@@ -1,0 +1,7 @@
+# Dev Main Vars
+---
+  dev:
+    name: pepito
+    comment: Pepe Ito
+    uid: 1040
+    group: pepito

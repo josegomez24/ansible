@@ -1,0 +1,7 @@
+ - name: Añade un nuevo usuario sin contraseña
+   become: true
+   become_method: sudo
+   ansible.builtin.user:
+    name: "{{ dev.name }}"
+    comment: "{{ dev.comment }}"
+    uid: "{{ dev.uid }}"

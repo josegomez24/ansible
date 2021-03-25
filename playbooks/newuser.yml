@@ -1,0 +1,6 @@
+---
+ - name: Crea usuario
+   hosts: hosts-new-user
+   roles :
+    - role : newuser
+
