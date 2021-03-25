@@ -1,0 +1,9 @@
+---
+- name: Crear un fichero de prueba
+  hosts: container
+  tasks:
+    - name: Create a file called '/PRACTICANDO/testfile.txt' with the content 'Hello world'.
+      copy:
+        content: Hello world
+        dest: PRACTICANDO/testfile.txt
+

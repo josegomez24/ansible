@@ -1,0 +1,8 @@
+---
+ - name: Crea un fichero '/PRACTICANDO/LOQUEQUIERAS' con el contenido 'Hola mundo'.   
+   
+copy:
+     content: Hola mundo
+     dest: PRACTICANDO/{{ env.name }}.txt
+             
+     

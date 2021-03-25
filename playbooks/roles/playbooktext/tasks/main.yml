@@ -1,0 +1,4 @@
+ - name: Crea un fichero donde quieras con el contenido que quieras.   
+   copy:
+     content: "{{ env.name2 }}"
+     dest: "{{ env.name }}"
